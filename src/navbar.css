@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #007bff; /* Dark background color */
+}
+
+.navbar-brand {
+    color: black; /* Text color for the brand */
+}
+
+.navbar-toggler-icon {
+    background-color: black; /* Background color for the toggler icon */
+}
+
+.navbar-nav {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove bullet points from list items */
+    display: flex; /* Display list items in a row */
+    justify-content: flex-end; /* Align list items to the right */
+}
+
+.nav-item {
+    margin-right: 15px; /* Add spacing between list items */
+}
+
+.nav-link {
+    color: black; /* Text color for the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.bg-color{
+    background-color: #0073ff;
+}
