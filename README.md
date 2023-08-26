@@ -2,6 +2,10 @@
 
 Welcome to the Movie Search App! This is a React application that allows users to search for movies, view their details, and navigate through different pages. The app fetches movie data from a remote API and displays it in a user-friendly interface.
 
+## Features to Add in the Future
+Autocomplete search, Login with a WatchList saved in a database.
+
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
