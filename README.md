@@ -73,7 +73,6 @@ The project is organized into the following structure:
 ## Technologies Used
 
 - React: A JavaScript library for building user interfaces.
-- React Router: A library for handling routing in React applications.
 - Axios: A promise-based HTTP client for making API requests.
 
 ## Contributing
