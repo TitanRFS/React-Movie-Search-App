@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import axios from 'axios';
 import './App.css';
-import Navbar from "./Navbar"; // Added this line
+import Navbar from "./Navbar"; // Added this line 
 import './navbar.css';
 import AboutUs from "./AboutUs"; // Added this line
 
