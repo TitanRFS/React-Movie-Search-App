@@ -12,7 +12,7 @@ function App() {
     const [rating, setRating] = useState('imdbRating'); // Added this line
     const searchMovies = async () => {
         try {
-            const apiKey = 'dd59c05d'; // Replace with your OMDB API key
+            const apiKey = 'dd59c05d';
             const url = `http://www.omdbapi.com/?s=${query}&apikey=${apiKey}`;
 
             const response = await axios.get(url);
