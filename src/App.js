@@ -1,15 +1,15 @@
 import React, { useState } from 'react'; 
 import axios from 'axios';
 import './App.css';
-import Navbar from "./Navbar"; // Added this line 
+import Navbar from "./Navbar";  
 import './navbar.css';
-import AboutUs from "./AboutUs"; // Added this line
+import AboutUs from "./AboutUs";
 
 function App() {
     const [query, setQuery] = useState('');
     const [movies, setMovies] = useState([]);
-    const [sortByKey, setSortByKey] = useState('Title'); // Default sorting key
-    const [rating, setRating] = useState('imdbRating'); // Added this line
+    const [sortByKey, setSortByKey] = useState('Title');
+    const [rating, setRating] = useState('imdbRating'); 
     const searchMovies = async () => {
         try {
             const apiKey = 'dd59c05d';
